@@ -1,0 +1,6 @@
+framework module Pods_GTMotionTransitioning_Tests {
+  umbrella header "Pods-GTMotionTransitioning_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

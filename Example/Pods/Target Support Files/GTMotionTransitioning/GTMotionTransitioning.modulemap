@@ -1,0 +1,6 @@
+framework module GTMotionTransitioning {
+  umbrella header "GTMotionTransitioning-umbrella.h"
+
+  export *
+  module * { export * }
+}

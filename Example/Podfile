@@ -1,6 +1,7 @@
 use_frameworks!
 
 target 'GTMotionTransitioning_Example' do
+  pod 'GTCatalog'
   pod 'GTMotionTransitioning', :path => '../'
 
   target 'GTMotionTransitioning_Tests' do

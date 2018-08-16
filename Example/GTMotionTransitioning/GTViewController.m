@@ -7,6 +7,7 @@
 //
 
 #import "GTViewController.h"
+#import <GTMotionTransitioning/GTMotionTransitioning.h>
 
 @interface GTViewController ()
 
@@ -17,7 +18,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    UIViewController *vc = [[UIViewController alloc] init];
+    vc.title = @"Transitioning";
+
+    [self presentViewController:vc animated:true completion:nil];
 }
 
 - (void)didReceiveMemoryWarning

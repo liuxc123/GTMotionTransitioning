@@ -1,0 +1,1283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = DCB78834A7CC15DDB8843228ACF62F30 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		052AD43FBF0A955600E6F517A3637CC2 /* GTMTransitionViewSnapshotter.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E0D04803EDAF3DD02E905C9974C9C1 /* GTMTransitionViewSnapshotter.m */; };
+		0898D2B7B5E60017563E9F018D8B3852 /* GTMTransitionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 693FA2953F45D4B9DFCEF52CF47B33FA /* GTMTransitionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CCC1ADB43BB8716FD834872A7E7159 /* UIApplication+StrictKeyWindow.m */; };
+		0DC15534A04020DD5A1EA951A21FFF74 /* GTMViewControllerTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0F21455AE061376A99AE284DB2504A /* GTMViewControllerTransitionController.m */; };
+		0F54B22CC66B6191A8BDE4834F6FE21E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
+		129670419CF6D3695AB142DC656626D6 /* GTFRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = F48208EC3AF79AD717F19C93EDFEA315 /* GTFRuntime.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80BC500BAAF9023C449E9AA7A4BF4C4 /* SwiftSupport.swift */; };
+		1F84B6D122EABC351EB0BB8DD5179E97 /* Pods-GTMotionTransitioning_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 743231A4B30D40DECA40FC8197827ED1 /* Pods-GTMotionTransitioning_Example-dummy.m */; };
+		2CC454F9DCAD381E7D8B840E5F514429 /* GTFCatalogExample.h in Headers */ = {isa = PBXBuildFile; fileRef = BC7C56C882D2AC0E9AD7323C7AFFE254 /* GTFCatalogExample.h */; };
+		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE123C3CD521BBA18684DA5DDD06D9BA /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30585B2620E29EF17BDE80DA685C295D /* GTMTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = E5EDD07A62BB8EBE2BBB09F7C791C013 /* GTMTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		305C390103E61D4A897E36DB7F4E1394 /* GTMTransitionNavigationControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9003B558282DC07F29797D78C8D03BFD /* GTMTransitionNavigationControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD413285E2AD7B6C7EAA591736A1987 /* UIImage+Diff.m */; };
+		3A739D90D873DD3D8D884F40FB439B99 /* Pods-GTMotionTransitioning_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B639BC14F7D54D4B27622729EF5A32 /* Pods-GTMotionTransitioning_Tests-dummy.m */; };
+		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 74E58E0009158A0490039B51C2937B9B /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4EE82EB4E742467647E2D31582732834 /* GTMTransitionNavigationControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DEF81A69F1DCB23B1FE28F82BE576C /* GTMTransitionNavigationControllerDelegate.m */; };
+		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98AAF1ABFD809851EE77F7B7900BB2B8 /* FBSnapshotTestCase-dummy.m */; };
+		569E70C9B00E272A0A26F35515840A44 /* Pods-GTMotionTransitioning_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B70F7DDE3C134720EF6E9B5BF19BDBDB /* Pods-GTMotionTransitioning_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A460FE4638EC0B6348B15055E6DC56E /* GTFRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AC447F84E1938695D232A81EA88ABD /* GTFRuntime.m */; };
+		5D79A45CE73EDCC1D3430A2E917F2B3B /* GTMTransitionViewSnapshotter.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6D7B5A3A1119535BA0A3CD8CA62FE2 /* GTMTransitionViewSnapshotter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E861228DB9B55194482899369AA8B58 /* GTMViewControllerTransitionCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4B4712375FF0E49778219911A5762E /* GTMViewControllerTransitionCoordinator.m */; };
+		638871AF207FAC3BE6BFA17936C8C17A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
+		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C78337C08C4A4CF23ABC353DA444DB /* UIImage+Compare.m */; };
+		6B8F8800ACBD97994FF1278A9AAA760D /* UIViewController+TransitionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CCBCC421C6091F6CE4CF2103C7F877F /* UIViewController+TransitionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71A09D99AF88D939125FA6B5061E5284 /* Pods-GTMotionTransitioning_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17E5EE14BF59510C765C529CAB91B0D5 /* Pods-GTMotionTransitioning_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E08410AF4125B6A230899E02181B1AB /* UIImage+Snapshot.m */; };
+		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */; };
+		841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */; };
+		8D87882000A1460682B9B41844D21F7B /* GTFCatalogExample.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = BC7C56C882D2AC0E9AD7323C7AFFE254 /* GTFCatalogExample.h */; };
+		9178B6C350AEB9AEBB8EE52EC9DD853C /* GTMTransitionContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A4AB8CECF41551F972FF7601F24EC68 /* GTMTransitionContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
+		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 31B3C6CA7194D0CA41D26E3F98256429 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A8C443555E073E56CF57E2A8E683D36 /* UIViewController+TransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6D3A8472B3085E31106F0AFB8A4526 /* UIViewController+TransitionController.m */; };
+		9C57FC7EC8EEFCA2032B59F377097078 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
+		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8929FEC0E450A0DBE14A1485B4234B6 /* FBSnapshotTestController.m */; };
+		A767B8E129FC559F39875C1E4CAEE232 /* GTMTransitionPresentationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ABCE444EDFB4B653E053250DBAC89AF /* GTMTransitionPresentationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9316D7CF0AC41BD13875F6397791D75 /* GTFNodeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7087FCA6557A94CC77C0E09C6EF93D51 /* GTFNodeListViewController.m */; };
+		ABB7A3224B6709C6AFC639AF1315B711 /* GTFNodeListViewController.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 7272D6AA570F69B5AD8439675EF879FE /* GTFNodeListViewController.h */; };
+		B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27810809BAD71E4022600B21251449F /* QuartzCore.framework */; };
+		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62CDF5C15BA91A1BFDDB4B2DBC357551 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8E939A8025F8B0FB4E8A019B7DAA059 /* GTCatalog.h in Headers */ = {isa = PBXBuildFile; fileRef = FD77C50345BC256C1A4B451F788C634B /* GTCatalog.h */; };
+		B9ADE91A3A704DC71821CC1087297404 /* GTMotionTransitioning-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 213BDBB64F0ADDB4265AB1EF4D1BE48E /* GTMotionTransitioning-dummy.m */; };
+		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C8393CF15921EF9E5301DE81EF83DDD /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = A721517950D62E5551ABB83FEF1FFDBD /* FBSnapshotTestCase.m */; };
+		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = C38789145B2345734C1A4803E451482A /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C861D49F0461DF84A1FA4C64CBB3F851 /* GTMViewControllerTransitionCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D7C5CCFE8A1AC97D24E568043611D5D /* GTMViewControllerTransitionCoordinator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CE9DE8BA4018AA211810DB8985C22D8 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CCB6A52363C83CA5578AE3130627F4BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
+		D24C4968BD0855809091466381E2FE7C /* GTFNodeListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7272D6AA570F69B5AD8439675EF879FE /* GTFNodeListViewController.h */; };
+		D3262EE02650D15F745D91FCEB1AA54B /* GTMotionTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = BD5B1760A9C2B6000978891A16AB4D6B /* GTMotionTransitioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0DC3ECE89862067EBABB36B30E7AF1 /* FBSnapshotTestCasePlatform.m */; };
+		ECB0D5ED5C2AE91768D486D853C985E9 /* GTMTransitionPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 906D589D748C0B4C78CFA05D370AF250 /* GTMTransitionPresentationController.m */; };
+		EDDEA01A3F657AE96059634F866EEF41 /* GTMViewControllerTransitionController.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF20F6DC44C0559360374113E2699A8 /* GTMViewControllerTransitionController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EE2CE2D0FBA788B0E58617E7B325C2C8 /* GTCatalog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E29DEEE9BB799A8B432324E6706A629 /* GTCatalog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3834854F39F18AE2BD82BD57C84F2A3 /* GTMotionTransitioning-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D81A1CEE043097977AE3F76538F2944 /* GTMotionTransitioning-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F721A8CD8BDBA81467EAFA2A54BD7017 /* GTCatalog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AFF1235492E83978AF241BACE61821 /* GTCatalog-dummy.m */; };
+		FA85F317A04DA0DC067BD012A5026DCA /* GTCatalog.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = FD77C50345BC256C1A4B451F788C634B /* GTCatalog.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		432092A0030782D36A50D79604361594 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34CD2E3428AB802BACA62286FF5074B1;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		54792CB885A50010E899F1BF4BA8888C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 688A67C0E5F60FA3D9A0A044F5BC385B;
+			remoteInfo = GTCatalog;
+		};
+		6D667D02AA217874DD65528F9BD36EBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A7B7D6FDF58D159C32FDAF835F85B20;
+			remoteInfo = GTMotionTransitioning;
+		};
+		B16EB3D4EBB9194CB4C1335EF417BA9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A4146B803BB7CCB4E3162C8CDC26545;
+			remoteInfo = "Pods-GTMotionTransitioning_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EF042B9FC353BBFB2983A54CCE99E2E3 /* Copy . Public Headers */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(PUBLIC_HEADERS_FOLDER_PATH)/.";
+			dstSubfolderSpec = 16;
+			files = (
+				FA85F317A04DA0DC067BD012A5026DCA /* GTCatalog.h in Copy . Public Headers */,
+				8D87882000A1460682B9B41844D21F7B /* GTFCatalogExample.h in Copy . Public Headers */,
+				ABB7A3224B6709C6AFC639AF1315B711 /* GTFNodeListViewController.h in Copy . Public Headers */,
+			);
+			name = "Copy . Public Headers";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		05DEF81A69F1DCB23B1FE28F82BE576C /* GTMTransitionNavigationControllerDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMTransitionNavigationControllerDelegate.m; path = src/GTMTransitionNavigationControllerDelegate.m; sourceTree = "<group>"; };
+		07B73E42361734FCAE6335536546C340 /* Pods-GTMotionTransitioning_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTMotionTransitioning_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0921654C1FBBAF7D3B4999024DE2FAB9 /* Pods-GTMotionTransitioning_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GTMotionTransitioning_Example.modulemap"; sourceTree = "<group>"; };
+		0E6D3A8472B3085E31106F0AFB8A4526 /* UIViewController+TransitionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+TransitionController.m"; path = "src/UIViewController+TransitionController.m"; sourceTree = "<group>"; };
+		16AC447F84E1938695D232A81EA88ABD /* GTFRuntime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTFRuntime.m; path = src/private/GTFRuntime.m; sourceTree = "<group>"; };
+		177E670FEFD84F0505B92961982C3B9F /* GTCatalog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTCatalog-prefix.pch"; sourceTree = "<group>"; };
+		17E5EE14BF59510C765C529CAB91B0D5 /* Pods-GTMotionTransitioning_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GTMotionTransitioning_Example-umbrella.h"; sourceTree = "<group>"; };
+		1892BBD858DE9BFA14C1B126AD3A228E /* Pods-GTMotionTransitioning_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTMotionTransitioning_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		19FFFD8818C06674EA5AABBA76D5AA5F /* GTCatalog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTCatalog.framework; path = GTCatalog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ABCE444EDFB4B653E053250DBAC89AF /* GTMTransitionPresentationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMTransitionPresentationController.h; path = src/GTMTransitionPresentationController.h; sourceTree = "<group>"; };
+		213BDBB64F0ADDB4265AB1EF4D1BE48E /* GTMotionTransitioning-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTMotionTransitioning-dummy.m"; sourceTree = "<group>"; };
+		2191E4CF099EEB917DEC6B6D62F8036C /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		226EA4066C3BF7BD4949394F0A56ADEA /* Pods-GTMotionTransitioning_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GTMotionTransitioning_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2DD6FC77F457659D51DDDB3CE702ABFD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E08410AF4125B6A230899E02181B1AB /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		31B3C6CA7194D0CA41D26E3F98256429 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		37DACF8062933410A44CA4C8B9A2A75A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3A93B791FCEE074ED77FA73E5B7E196C /* Pods_GTMotionTransitioning_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GTMotionTransitioning_Example.framework; path = "Pods-GTMotionTransitioning_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41CD5EA1599C42DC0264FD1E648EAE85 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46B34B7D60A72E1B9FFEA66A46012223 /* Pods_GTMotionTransitioning_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GTMotionTransitioning_Tests.framework; path = "Pods-GTMotionTransitioning_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A4AB8CECF41551F972FF7601F24EC68 /* GTMTransitionContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMTransitionContext.h; path = src/GTMTransitionContext.h; sourceTree = "<group>"; };
+		4B7D2603305A3938EF58F2C6149328A8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BD413285E2AD7B6C7EAA591736A1987 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		4C8393CF15921EF9E5301DE81EF83DDD /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		4D7C5CCFE8A1AC97D24E568043611D5D /* GTMViewControllerTransitionCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMViewControllerTransitionCoordinator.h; sourceTree = "<group>"; };
+		4ED2A6050AA1533DCFE0708FF1111FD2 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE6B06829DC2DF91A78F5FBA5ED4226 /* GTCatalog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTCatalog.xcconfig; sourceTree = "<group>"; };
+		52FEB70CBE8D1BA5A0FF8E78D5391891 /* GTMotionTransitioning-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMotionTransitioning-prefix.pch"; sourceTree = "<group>"; };
+		59212759EDBA5EFF4C64E4CF8817DCF4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5CE9DE8BA4018AA211810DB8985C22D8 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		5D81A1CEE043097977AE3F76538F2944 /* GTMotionTransitioning-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMotionTransitioning-umbrella.h"; sourceTree = "<group>"; };
+		62CDF5C15BA91A1BFDDB4B2DBC357551 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		693FA2953F45D4B9DFCEF52CF47B33FA /* GTMTransitionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMTransitionController.h; path = src/GTMTransitionController.h; sourceTree = "<group>"; };
+		6A8E876AFC01974A58B08B530FF64DA6 /* Pods-GTMotionTransitioning_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GTMotionTransitioning_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6B351F4BEBE24DB533BB1D6AA7EB0FB2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6B88231ECCB19FA40D5212A7E1E9FECD /* Pods-GTMotionTransitioning_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTMotionTransitioning_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6BC5F43BE57622B459644F51BF440B5E /* GTMotionTransitioning.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTMotionTransitioning.xcconfig; sourceTree = "<group>"; };
+		6D0F21455AE061376A99AE284DB2504A /* GTMViewControllerTransitionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GTMViewControllerTransitionController.m; sourceTree = "<group>"; };
+		6D4D143C71D20E1259A792E0370706A8 /* GTMotionTransitioning.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GTMotionTransitioning.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7087FCA6557A94CC77C0E09C6EF93D51 /* GTFNodeListViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTFNodeListViewController.m; path = src/GTFNodeListViewController.m; sourceTree = "<group>"; };
+		7272D6AA570F69B5AD8439675EF879FE /* GTFNodeListViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTFNodeListViewController.h; path = src/GTFNodeListViewController.h; sourceTree = "<group>"; };
+		743231A4B30D40DECA40FC8197827ED1 /* Pods-GTMotionTransitioning_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GTMotionTransitioning_Example-dummy.m"; sourceTree = "<group>"; };
+		74E58E0009158A0490039B51C2937B9B /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		7E29DEEE9BB799A8B432324E6706A629 /* GTCatalog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTCatalog-umbrella.h"; sourceTree = "<group>"; };
+		7F6FF71801098907BF04CD531EC99631 /* Pods-GTMotionTransitioning_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTMotionTransitioning_Tests-resources.sh"; sourceTree = "<group>"; };
+		80E6AF8EB3DAF43DA15430BCD958C7C5 /* Pods-GTMotionTransitioning_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTMotionTransitioning_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8295D82DEFCCBFCC47A1D22493B6455B /* Pods-GTMotionTransitioning_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTMotionTransitioning_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		895FD50B945BD29FC27A39BAD6D3FCB7 /* Pods-GTMotionTransitioning_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GTMotionTransitioning_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8C3EEAC950D0062849E9662FADF82033 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9003B558282DC07F29797D78C8D03BFD /* GTMTransitionNavigationControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMTransitionNavigationControllerDelegate.h; path = src/GTMTransitionNavigationControllerDelegate.h; sourceTree = "<group>"; };
+		906D589D748C0B4C78CFA05D370AF250 /* GTMTransitionPresentationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMTransitionPresentationController.m; path = src/GTMTransitionPresentationController.m; sourceTree = "<group>"; };
+		91C78337C08C4A4CF23ABC353DA444DB /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98AAF1ABFD809851EE77F7B7900BB2B8 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		9CCBCC421C6091F6CE4CF2103C7F877F /* UIViewController+TransitionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+TransitionController.h"; path = "src/UIViewController+TransitionController.h"; sourceTree = "<group>"; };
+		A1CCC1ADB43BB8716FD834872A7E7159 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		A27810809BAD71E4022600B21251449F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		A4C53909248C5C1A1FF7BFE10D0A0340 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		A721517950D62E5551ABB83FEF1FFDBD /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		AA0DC3ECE89862067EBABB36B30E7AF1 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AB295B3D97DDF0154EF70949B3CF3381 /* GTCatalog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GTCatalog.modulemap; sourceTree = "<group>"; };
+		ABF20F6DC44C0559360374113E2699A8 /* GTMViewControllerTransitionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMViewControllerTransitionController.h; sourceTree = "<group>"; };
+		AE123C3CD521BBA18684DA5DDD06D9BA /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		B70F7DDE3C134720EF6E9B5BF19BDBDB /* Pods-GTMotionTransitioning_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GTMotionTransitioning_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B80BC500BAAF9023C449E9AA7A4BF4C4 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		B8D0DB77EB4E708A5B43D4B9C72F58A6 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		BA6D7B5A3A1119535BA0A3CD8CA62FE2 /* GTMTransitionViewSnapshotter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMTransitionViewSnapshotter.h; path = src/GTMTransitionViewSnapshotter.h; sourceTree = "<group>"; };
+		BB4B4712375FF0E49778219911A5762E /* GTMViewControllerTransitionCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GTMViewControllerTransitionCoordinator.m; sourceTree = "<group>"; };
+		BC7C56C882D2AC0E9AD7323C7AFFE254 /* GTFCatalogExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTFCatalogExample.h; path = src/GTFCatalogExample.h; sourceTree = "<group>"; };
+		BD5B1760A9C2B6000978891A16AB4D6B /* GTMotionTransitioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMotionTransitioning.h; path = src/GTMotionTransitioning.h; sourceTree = "<group>"; };
+		C38789145B2345734C1A4803E451482A /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		C4263945074D9F64EF443AF2F076FC17 /* Pods-GTMotionTransitioning_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTMotionTransitioning_Example-resources.sh"; sourceTree = "<group>"; };
+		C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D1B639BC14F7D54D4B27622729EF5A32 /* Pods-GTMotionTransitioning_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GTMotionTransitioning_Tests-dummy.m"; sourceTree = "<group>"; };
+		D29DA41593855561661552F6AEBC73F1 /* Pods-GTMotionTransitioning_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GTMotionTransitioning_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D5E0D04803EDAF3DD02E905C9974C9C1 /* GTMTransitionViewSnapshotter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMTransitionViewSnapshotter.m; path = src/GTMTransitionViewSnapshotter.m; sourceTree = "<group>"; };
+		D8929FEC0E450A0DBE14A1485B4234B6 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		DA67FA099DCD8102C947E3FA52F36A44 /* GTMotionTransitioning.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GTMotionTransitioning.modulemap; sourceTree = "<group>"; };
+		DCB78834A7CC15DDB8843228ACF62F30 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		E5EDD07A62BB8EBE2BBB09F7C791C013 /* GTMTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMTransition.h; path = src/GTMTransition.h; sourceTree = "<group>"; };
+		ED406FB15E5565529B72B0E6C239875C /* Pods-GTMotionTransitioning_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTMotionTransitioning_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EEFBF5790B062799AECB4C5734F9AB84 /* GTMotionTransitioning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTMotionTransitioning.framework; path = GTMotionTransitioning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF80E01760A7BACC50836C51BEB76E7B /* Pods-GTMotionTransitioning_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GTMotionTransitioning_Tests.modulemap"; sourceTree = "<group>"; };
+		F48208EC3AF79AD717F19C93EDFEA315 /* GTFRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTFRuntime.h; path = src/private/GTFRuntime.h; sourceTree = "<group>"; };
+		F6AFF1235492E83978AF241BACE61821 /* GTCatalog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTCatalog-dummy.m"; sourceTree = "<group>"; };
+		FD77C50345BC256C1A4B451F788C634B /* GTCatalog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTCatalog.h; path = src/GTCatalog.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D421A30A1BDB7E1C4216F64D0C939B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */,
+				B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */,
+				841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */,
+				7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F2B5E567B42380CEBA08351397D45D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				638871AF207FAC3BE6BFA17936C8C17A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AE856D0FC9D3EC6C456464EB636DE9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F54B22CC66B6191A8BDE4834F6FE21E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F159700EDD7507E7CC58D53A8086F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C57FC7EC8EEFCA2032B59F377097078 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78BAE0AFF265C138CE2C37805ECE1CC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB6A52363C83CA5578AE3130627F4BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13CC5D3B257E3E6C2A8248EAA134EB63 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2191E4CF099EEB917DEC6B6D62F8036C /* FBSnapshotTestCase.modulemap */,
+				B8D0DB77EB4E708A5B43D4B9C72F58A6 /* FBSnapshotTestCase.xcconfig */,
+				98AAF1ABFD809851EE77F7B7900BB2B8 /* FBSnapshotTestCase-dummy.m */,
+				A4C53909248C5C1A1FF7BFE10D0A0340 /* FBSnapshotTestCase-prefix.pch */,
+				62CDF5C15BA91A1BFDDB4B2DBC357551 /* FBSnapshotTestCase-umbrella.h */,
+				37DACF8062933410A44CA4C8B9A2A75A /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D22B0D091B0427E43C82354D9CA8E06 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		223CEBB4C6756406816154CB6434909B /* Pods-GTMotionTransitioning_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				41CD5EA1599C42DC0264FD1E648EAE85 /* Info.plist */,
+				EF80E01760A7BACC50836C51BEB76E7B /* Pods-GTMotionTransitioning_Tests.modulemap */,
+				226EA4066C3BF7BD4949394F0A56ADEA /* Pods-GTMotionTransitioning_Tests-acknowledgements.markdown */,
+				895FD50B945BD29FC27A39BAD6D3FCB7 /* Pods-GTMotionTransitioning_Tests-acknowledgements.plist */,
+				D1B639BC14F7D54D4B27622729EF5A32 /* Pods-GTMotionTransitioning_Tests-dummy.m */,
+				1892BBD858DE9BFA14C1B126AD3A228E /* Pods-GTMotionTransitioning_Tests-frameworks.sh */,
+				7F6FF71801098907BF04CD531EC99631 /* Pods-GTMotionTransitioning_Tests-resources.sh */,
+				B70F7DDE3C134720EF6E9B5BF19BDBDB /* Pods-GTMotionTransitioning_Tests-umbrella.h */,
+				8295D82DEFCCBFCC47A1D22493B6455B /* Pods-GTMotionTransitioning_Tests.debug.xcconfig */,
+				80E6AF8EB3DAF43DA15430BCD958C7C5 /* Pods-GTMotionTransitioning_Tests.release.xcconfig */,
+			);
+			name = "Pods-GTMotionTransitioning_Tests";
+			path = "Target Support Files/Pods-GTMotionTransitioning_Tests";
+			sourceTree = "<group>";
+		};
+		2D630723309A4A6B8BC3AE1413C29127 /* Pods-GTMotionTransitioning_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2DD6FC77F457659D51DDDB3CE702ABFD /* Info.plist */,
+				0921654C1FBBAF7D3B4999024DE2FAB9 /* Pods-GTMotionTransitioning_Example.modulemap */,
+				6A8E876AFC01974A58B08B530FF64DA6 /* Pods-GTMotionTransitioning_Example-acknowledgements.markdown */,
+				D29DA41593855561661552F6AEBC73F1 /* Pods-GTMotionTransitioning_Example-acknowledgements.plist */,
+				743231A4B30D40DECA40FC8197827ED1 /* Pods-GTMotionTransitioning_Example-dummy.m */,
+				6B88231ECCB19FA40D5212A7E1E9FECD /* Pods-GTMotionTransitioning_Example-frameworks.sh */,
+				C4263945074D9F64EF443AF2F076FC17 /* Pods-GTMotionTransitioning_Example-resources.sh */,
+				17E5EE14BF59510C765C529CAB91B0D5 /* Pods-GTMotionTransitioning_Example-umbrella.h */,
+				ED406FB15E5565529B72B0E6C239875C /* Pods-GTMotionTransitioning_Example.debug.xcconfig */,
+				07B73E42361734FCAE6335536546C340 /* Pods-GTMotionTransitioning_Example.release.xcconfig */,
+			);
+			name = "Pods-GTMotionTransitioning_Example";
+			path = "Target Support Files/Pods-GTMotionTransitioning_Example";
+			sourceTree = "<group>";
+		};
+		40AE364DCA418D45939EE11BA14FB18D /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				B80BC500BAAF9023C449E9AA7A4BF4C4 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		580D799AF8F4AC619CD2230827EBDDE7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D630723309A4A6B8BC3AE1413C29127 /* Pods-GTMotionTransitioning_Example */,
+				223CEBB4C6756406816154CB6434909B /* Pods-GTMotionTransitioning_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		787BD5543E1395BACC7DA2F1FC791B26 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				960D416E99F42D2DAA02CE2C7235AEC3 /* GTMotionTransitioning */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				787BD5543E1395BACC7DA2F1FC791B26 /* Development Pods */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				90776EDBC39330430EB3910D6D68F2AC /* Pods */,
+				F031CC3FA39E18C8959B06224717739B /* Products */,
+				580D799AF8F4AC619CD2230827EBDDE7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8B83BD674276D45E0C45A3E2AF6652D8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB295B3D97DDF0154EF70949B3CF3381 /* GTCatalog.modulemap */,
+				4EE6B06829DC2DF91A78F5FBA5ED4226 /* GTCatalog.xcconfig */,
+				F6AFF1235492E83978AF241BACE61821 /* GTCatalog-dummy.m */,
+				177E670FEFD84F0505B92961982C3B9F /* GTCatalog-prefix.pch */,
+				7E29DEEE9BB799A8B432324E6706A629 /* GTCatalog-umbrella.h */,
+				8C3EEAC950D0062849E9662FADF82033 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GTCatalog";
+			sourceTree = "<group>";
+		};
+		8D22B0D091B0427E43C82354D9CA8E06 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */,
+				A27810809BAD71E4022600B21251449F /* QuartzCore.framework */,
+				AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */,
+				3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		90776EDBC39330430EB3910D6D68F2AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAA3230FFC7AB487399214455C4B6756 /* FBSnapshotTestCase */,
+				9CA68146B61C97BAFB9FD61E543BC89B /* GTCatalog */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		960D416E99F42D2DAA02CE2C7235AEC3 /* GTMotionTransitioning */ = {
+			isa = PBXGroup;
+			children = (
+				BD5B1760A9C2B6000978891A16AB4D6B /* GTMotionTransitioning.h */,
+				E5EDD07A62BB8EBE2BBB09F7C791C013 /* GTMTransition.h */,
+				4A4AB8CECF41551F972FF7601F24EC68 /* GTMTransitionContext.h */,
+				693FA2953F45D4B9DFCEF52CF47B33FA /* GTMTransitionController.h */,
+				9003B558282DC07F29797D78C8D03BFD /* GTMTransitionNavigationControllerDelegate.h */,
+				05DEF81A69F1DCB23B1FE28F82BE576C /* GTMTransitionNavigationControllerDelegate.m */,
+				1ABCE444EDFB4B653E053250DBAC89AF /* GTMTransitionPresentationController.h */,
+				906D589D748C0B4C78CFA05D370AF250 /* GTMTransitionPresentationController.m */,
+				BA6D7B5A3A1119535BA0A3CD8CA62FE2 /* GTMTransitionViewSnapshotter.h */,
+				D5E0D04803EDAF3DD02E905C9974C9C1 /* GTMTransitionViewSnapshotter.m */,
+				9CCBCC421C6091F6CE4CF2103C7F877F /* UIViewController+TransitionController.h */,
+				0E6D3A8472B3085E31106F0AFB8A4526 /* UIViewController+TransitionController.m */,
+				9C4EB0974BC84E992F4786E1139A03CF /* Pod */,
+				E87D4F8DE761FBAC8850720FC4D3BDAF /* private */,
+				A8AAE78D5CA51B8FBABC63161A8ED345 /* Support Files */,
+			);
+			name = GTMotionTransitioning;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9C4EB0974BC84E992F4786E1139A03CF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6D4D143C71D20E1259A792E0370706A8 /* GTMotionTransitioning.podspec */,
+				59212759EDBA5EFF4C64E4CF8817DCF4 /* LICENSE */,
+				6B351F4BEBE24DB533BB1D6AA7EB0FB2 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9CA68146B61C97BAFB9FD61E543BC89B /* GTCatalog */ = {
+			isa = PBXGroup;
+			children = (
+				FD77C50345BC256C1A4B451F788C634B /* GTCatalog.h */,
+				BC7C56C882D2AC0E9AD7323C7AFFE254 /* GTFCatalogExample.h */,
+				7272D6AA570F69B5AD8439675EF879FE /* GTFNodeListViewController.h */,
+				7087FCA6557A94CC77C0E09C6EF93D51 /* GTFNodeListViewController.m */,
+				F48208EC3AF79AD717F19C93EDFEA315 /* GTFRuntime.h */,
+				16AC447F84E1938695D232A81EA88ABD /* GTFRuntime.m */,
+				8B83BD674276D45E0C45A3E2AF6652D8 /* Support Files */,
+			);
+			name = GTCatalog;
+			path = GTCatalog;
+			sourceTree = "<group>";
+		};
+		A8AAE78D5CA51B8FBABC63161A8ED345 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA67FA099DCD8102C947E3FA52F36A44 /* GTMotionTransitioning.modulemap */,
+				6BC5F43BE57622B459644F51BF440B5E /* GTMotionTransitioning.xcconfig */,
+				213BDBB64F0ADDB4265AB1EF4D1BE48E /* GTMotionTransitioning-dummy.m */,
+				52FEB70CBE8D1BA5A0FF8E78D5391891 /* GTMotionTransitioning-prefix.pch */,
+				5D81A1CEE043097977AE3F76538F2944 /* GTMotionTransitioning-umbrella.h */,
+				4B7D2603305A3938EF58F2C6149328A8 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GTMotionTransitioning";
+			sourceTree = "<group>";
+		};
+		BAA3230FFC7AB487399214455C4B6756 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				E1F49334109A5F711D89BD506DB56E2D /* Core */,
+				13CC5D3B257E3E6C2A8248EAA134EB63 /* Support Files */,
+				40AE364DCA418D45939EE11BA14FB18D /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		E1F49334109A5F711D89BD506DB56E2D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				31B3C6CA7194D0CA41D26E3F98256429 /* FBSnapshotTestCase.h */,
+				A721517950D62E5551ABB83FEF1FFDBD /* FBSnapshotTestCase.m */,
+				C38789145B2345734C1A4803E451482A /* FBSnapshotTestCasePlatform.h */,
+				AA0DC3ECE89862067EBABB36B30E7AF1 /* FBSnapshotTestCasePlatform.m */,
+				AE123C3CD521BBA18684DA5DDD06D9BA /* FBSnapshotTestController.h */,
+				D8929FEC0E450A0DBE14A1485B4234B6 /* FBSnapshotTestController.m */,
+				4C8393CF15921EF9E5301DE81EF83DDD /* UIApplication+StrictKeyWindow.h */,
+				A1CCC1ADB43BB8716FD834872A7E7159 /* UIApplication+StrictKeyWindow.m */,
+				5CE9DE8BA4018AA211810DB8985C22D8 /* UIImage+Compare.h */,
+				91C78337C08C4A4CF23ABC353DA444DB /* UIImage+Compare.m */,
+				DCB78834A7CC15DDB8843228ACF62F30 /* UIImage+Diff.h */,
+				4BD413285E2AD7B6C7EAA591736A1987 /* UIImage+Diff.m */,
+				74E58E0009158A0490039B51C2937B9B /* UIImage+Snapshot.h */,
+				2E08410AF4125B6A230899E02181B1AB /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		E87D4F8DE761FBAC8850720FC4D3BDAF /* private */ = {
+			isa = PBXGroup;
+			children = (
+				ABF20F6DC44C0559360374113E2699A8 /* GTMViewControllerTransitionController.h */,
+				6D0F21455AE061376A99AE284DB2504A /* GTMViewControllerTransitionController.m */,
+				4D7C5CCFE8A1AC97D24E568043611D5D /* GTMViewControllerTransitionCoordinator.h */,
+				BB4B4712375FF0E49778219911A5762E /* GTMViewControllerTransitionCoordinator.m */,
+			);
+			name = private;
+			path = src/private;
+			sourceTree = "<group>";
+		};
+		F031CC3FA39E18C8959B06224717739B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ED2A6050AA1533DCFE0708FF1111FD2 /* FBSnapshotTestCase.framework */,
+				19FFFD8818C06674EA5AABBA76D5AA5F /* GTCatalog.framework */,
+				EEFBF5790B062799AECB4C5734F9AB84 /* GTMotionTransitioning.framework */,
+				3A93B791FCEE074ED77FA73E5B7E196C /* Pods_GTMotionTransitioning_Example.framework */,
+				46B34B7D60A72E1B9FFEA66A46012223 /* Pods_GTMotionTransitioning_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		146FF7F0D5CF52CF05681B4144AE6636 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				569E70C9B00E272A0A26F35515840A44 /* Pods-GTMotionTransitioning_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9BFC599AEA9BB54E4C1ACAD4755E19 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3834854F39F18AE2BD82BD57C84F2A3 /* GTMotionTransitioning-umbrella.h in Headers */,
+				D3262EE02650D15F745D91FCEB1AA54B /* GTMotionTransitioning.h in Headers */,
+				30585B2620E29EF17BDE80DA685C295D /* GTMTransition.h in Headers */,
+				9178B6C350AEB9AEBB8EE52EC9DD853C /* GTMTransitionContext.h in Headers */,
+				0898D2B7B5E60017563E9F018D8B3852 /* GTMTransitionController.h in Headers */,
+				305C390103E61D4A897E36DB7F4E1394 /* GTMTransitionNavigationControllerDelegate.h in Headers */,
+				A767B8E129FC559F39875C1E4CAEE232 /* GTMTransitionPresentationController.h in Headers */,
+				5D79A45CE73EDCC1D3430A2E917F2B3B /* GTMTransitionViewSnapshotter.h in Headers */,
+				EDDEA01A3F657AE96059634F866EEF41 /* GTMViewControllerTransitionController.h in Headers */,
+				C861D49F0461DF84A1FA4C64CBB3F851 /* GTMViewControllerTransitionCoordinator.h in Headers */,
+				6B8F8800ACBD97994FF1278A9AAA760D /* UIViewController+TransitionController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59B742DE6F8114678D9B698256F77E10 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2CE2D0FBA788B0E58617E7B325C2C8 /* GTCatalog-umbrella.h in Headers */,
+				B8E939A8025F8B0FB4E8A019B7DAA059 /* GTCatalog.h in Headers */,
+				2CC454F9DCAD381E7D8B840E5F514429 /* GTFCatalogExample.h in Headers */,
+				D24C4968BD0855809091466381E2FE7C /* GTFNodeListViewController.h in Headers */,
+				129670419CF6D3695AB142DC656626D6 /* GTFRuntime.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72EF124CFA4A5CA05DA6463E9F2372E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A09D99AF88D939125FA6B5061E5284 /* Pods-GTMotionTransitioning_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC6F5AC11E37A1EB45C6473C9E800B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */,
+				BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */,
+				2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */,
+				BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */,
+				CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */,
+				051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */,
+				421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1A4146B803BB7CCB4E3162C8CDC26545 /* Pods-GTMotionTransitioning_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 283130FDDDF624BDD311FFCB363785BC /* Build configuration list for PBXNativeTarget "Pods-GTMotionTransitioning_Example" */;
+			buildPhases = (
+				E92C5B35506412699D651854DED92479 /* Sources */,
+				78BAE0AFF265C138CE2C37805ECE1CC4 /* Frameworks */,
+				72EF124CFA4A5CA05DA6463E9F2372E5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D366ADA8F0D67C017D3D5B4BAF86CC0 /* PBXTargetDependency */,
+				D24EFC82C041ED4A5288F6BFDBB0CE92 /* PBXTargetDependency */,
+			);
+			name = "Pods-GTMotionTransitioning_Example";
+			productName = "Pods-GTMotionTransitioning_Example";
+			productReference = 3A93B791FCEE074ED77FA73E5B7E196C /* Pods_GTMotionTransitioning_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1A7B7D6FDF58D159C32FDAF835F85B20 /* GTMotionTransitioning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E31838A18EA7ABAA2DFDE1966133B6B /* Build configuration list for PBXNativeTarget "GTMotionTransitioning" */;
+			buildPhases = (
+				F9F2AD606749E269E739BA5360C1F866 /* Sources */,
+				2AE856D0FC9D3EC6C456464EB636DE9E /* Frameworks */,
+				4B9BFC599AEA9BB54E4C1ACAD4755E19 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTMotionTransitioning;
+			productName = GTMotionTransitioning;
+			productReference = EEFBF5790B062799AECB4C5734F9AB84 /* GTMotionTransitioning.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F28097D43AF5CD8DA838ABD52A053790 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				E2E80CCD063D04B57A1A5E140726E8A4 /* Sources */,
+				1D421A30A1BDB7E1C4216F64D0C939B1 /* Frameworks */,
+				9DC6F5AC11E37A1EB45C6473C9E800B6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 4ED2A6050AA1533DCFE0708FF1111FD2 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		688A67C0E5F60FA3D9A0A044F5BC385B /* GTCatalog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0AF60ECAB7BCD088E278E0C0DF722FB /* Build configuration list for PBXNativeTarget "GTCatalog" */;
+			buildPhases = (
+				18D8D957CD17C097BAE100FC59A74B19 /* Sources */,
+				75F159700EDD7507E7CC58D53A8086F5 /* Frameworks */,
+				59B742DE6F8114678D9B698256F77E10 /* Headers */,
+				EF042B9FC353BBFB2983A54CCE99E2E3 /* Copy . Public Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTCatalog;
+			productName = GTCatalog;
+			productReference = 19FFFD8818C06674EA5AABBA76D5AA5F /* GTCatalog.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		875D52E427D8BCA3FD51EEC46476BD49 /* Pods-GTMotionTransitioning_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B07FA14645E71C0F42F564D66352032 /* Build configuration list for PBXNativeTarget "Pods-GTMotionTransitioning_Tests" */;
+			buildPhases = (
+				4BD75EA5EFA0CE7C979175E322F3FD48 /* Sources */,
+				1F2B5E567B42380CEBA08351397D45D8 /* Frameworks */,
+				146FF7F0D5CF52CF05681B4144AE6636 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				342616A34743832E40D660BF6EA81E7A /* PBXTargetDependency */,
+				DF1F3F50AC7E22A70DA6EDB36D8D426E /* PBXTargetDependency */,
+			);
+			name = "Pods-GTMotionTransitioning_Tests";
+			productName = "Pods-GTMotionTransitioning_Tests";
+			productReference = 46B34B7D60A72E1B9FFEA66A46012223 /* Pods_GTMotionTransitioning_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F031CC3FA39E18C8959B06224717739B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */,
+				688A67C0E5F60FA3D9A0A044F5BC385B /* GTCatalog */,
+				1A7B7D6FDF58D159C32FDAF835F85B20 /* GTMotionTransitioning */,
+				1A4146B803BB7CCB4E3162C8CDC26545 /* Pods-GTMotionTransitioning_Example */,
+				875D52E427D8BCA3FD51EEC46476BD49 /* Pods-GTMotionTransitioning_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18D8D957CD17C097BAE100FC59A74B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F721A8CD8BDBA81467EAFA2A54BD7017 /* GTCatalog-dummy.m in Sources */,
+				A9316D7CF0AC41BD13875F6397791D75 /* GTFNodeListViewController.m in Sources */,
+				5A460FE4638EC0B6348B15055E6DC56E /* GTFRuntime.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BD75EA5EFA0CE7C979175E322F3FD48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A739D90D873DD3D8D884F40FB439B99 /* Pods-GTMotionTransitioning_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2E80CCD063D04B57A1A5E140726E8A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */,
+				BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */,
+				DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */,
+				A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */,
+				1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */,
+				094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */,
+				69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */,
+				35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */,
+				756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92C5B35506412699D651854DED92479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F84B6D122EABC351EB0BB8DD5179E97 /* Pods-GTMotionTransitioning_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F2AD606749E269E739BA5360C1F866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9ADE91A3A704DC71821CC1087297404 /* GTMotionTransitioning-dummy.m in Sources */,
+				4EE82EB4E742467647E2D31582732834 /* GTMTransitionNavigationControllerDelegate.m in Sources */,
+				ECB0D5ED5C2AE91768D486D853C985E9 /* GTMTransitionPresentationController.m in Sources */,
+				052AD43FBF0A955600E6F517A3637CC2 /* GTMTransitionViewSnapshotter.m in Sources */,
+				0DC15534A04020DD5A1EA951A21FFF74 /* GTMViewControllerTransitionController.m in Sources */,
+				5E861228DB9B55194482899369AA8B58 /* GTMViewControllerTransitionCoordinator.m in Sources */,
+				9A8C443555E073E56CF57E2A8E683D36 /* UIViewController+TransitionController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		342616A34743832E40D660BF6EA81E7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */;
+			targetProxy = 432092A0030782D36A50D79604361594 /* PBXContainerItemProxy */;
+		};
+		6D366ADA8F0D67C017D3D5B4BAF86CC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTCatalog;
+			target = 688A67C0E5F60FA3D9A0A044F5BC385B /* GTCatalog */;
+			targetProxy = 54792CB885A50010E899F1BF4BA8888C /* PBXContainerItemProxy */;
+		};
+		D24EFC82C041ED4A5288F6BFDBB0CE92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTMotionTransitioning;
+			target = 1A7B7D6FDF58D159C32FDAF835F85B20 /* GTMotionTransitioning */;
+			targetProxy = 6D667D02AA217874DD65528F9BD36EBE /* PBXContainerItemProxy */;
+		};
+		DF1F3F50AC7E22A70DA6EDB36D8D426E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GTMotionTransitioning_Example";
+			target = 1A4146B803BB7CCB4E3162C8CDC26545 /* Pods-GTMotionTransitioning_Example */;
+			targetProxy = B16EB3D4EBB9194CB4C1335EF417BA9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05D71057B59B57F331B90368524DF40D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED406FB15E5565529B72B0E6C239875C /* Pods-GTMotionTransitioning_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GTMotionTransitioning_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GTMotionTransitioning_Example/Pods-GTMotionTransitioning_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		096FC0F7E38F866929072164A254572F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BC5F43BE57622B459644F51BF440B5E /* GTMotionTransitioning.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTMotionTransitioning/GTMotionTransitioning-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTMotionTransitioning/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTMotionTransitioning/GTMotionTransitioning.modulemap";
+				PRODUCT_MODULE_NAME = GTMotionTransitioning;
+				PRODUCT_NAME = GTMotionTransitioning;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1E9462DD13BAEA62DA515B9822DA63C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BC5F43BE57622B459644F51BF440B5E /* GTMotionTransitioning.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTMotionTransitioning/GTMotionTransitioning-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTMotionTransitioning/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTMotionTransitioning/GTMotionTransitioning.modulemap";
+				PRODUCT_MODULE_NAME = GTMotionTransitioning;
+				PRODUCT_NAME = GTMotionTransitioning;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2861C8B3CECD73A74B4ED4603C49ED21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80E6AF8EB3DAF43DA15430BCD958C7C5 /* Pods-GTMotionTransitioning_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GTMotionTransitioning_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GTMotionTransitioning_Tests/Pods-GTMotionTransitioning_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4C636D292419E3CE2D406DBFEF1B2BA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8295D82DEFCCBFCC47A1D22493B6455B /* Pods-GTMotionTransitioning_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GTMotionTransitioning_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GTMotionTransitioning_Tests/Pods-GTMotionTransitioning_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D99409BF47B76FC249A0261505AC135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EE6B06829DC2DF91A78F5FBA5ED4226 /* GTCatalog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTCatalog/GTCatalog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTCatalog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTCatalog/GTCatalog.modulemap";
+				PRODUCT_MODULE_NAME = GTCatalog;
+				PRODUCT_NAME = GTCatalog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9AB06A5E88F2325268244614BFF58D49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EE6B06829DC2DF91A78F5FBA5ED4226 /* GTCatalog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTCatalog/GTCatalog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTCatalog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTCatalog/GTCatalog.modulemap";
+				PRODUCT_MODULE_NAME = GTCatalog;
+				PRODUCT_NAME = GTCatalog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A38749C15819B02B742737E489EE0EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8D0DB77EB4E708A5B43D4B9C72F58A6 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB74B6A60AA3078D80BB7D633DFBCA01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8D0DB77EB4E708A5B43D4B9C72F58A6 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DA7288075FAC8F74607137D4F06E1B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07B73E42361734FCAE6335536546C340 /* Pods-GTMotionTransitioning_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GTMotionTransitioning_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GTMotionTransitioning_Example/Pods-GTMotionTransitioning_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		283130FDDDF624BDD311FFCB363785BC /* Build configuration list for PBXNativeTarget "Pods-GTMotionTransitioning_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05D71057B59B57F331B90368524DF40D /* Debug */,
+				DA7288075FAC8F74607137D4F06E1B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B07FA14645E71C0F42F564D66352032 /* Build configuration list for PBXNativeTarget "Pods-GTMotionTransitioning_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C636D292419E3CE2D406DBFEF1B2BA1 /* Debug */,
+				2861C8B3CECD73A74B4ED4603C49ED21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E31838A18EA7ABAA2DFDE1966133B6B /* Build configuration list for PBXNativeTarget "GTMotionTransitioning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				096FC0F7E38F866929072164A254572F /* Debug */,
+				1E9462DD13BAEA62DA515B9822DA63C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0AF60ECAB7BCD088E278E0C0DF722FB /* Build configuration list for PBXNativeTarget "GTCatalog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AB06A5E88F2325268244614BFF58D49 /* Debug */,
+				7D99409BF47B76FC249A0261505AC135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F28097D43AF5CD8DA838ABD52A053790 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38749C15819B02B742737E489EE0EEB /* Debug */,
+				AB74B6A60AA3078D80BB7D633DFBCA01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

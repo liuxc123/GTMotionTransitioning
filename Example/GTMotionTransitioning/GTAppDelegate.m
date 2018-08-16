@@ -7,12 +7,20 @@
 //
 
 #import "GTAppDelegate.h"
+#import <GTCatalog/GTCatalog.h>
 
 @implementation GTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    UIWindow *window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window = window;
+
+    GTFNodeListViewController *rootViewController = [[GTFNodeListViewController alloc] initWithNode:GTFCreateNavigationTree()];
+    rootViewController.title = @"Transitioning";
+    window.rootViewController = [[UINavigationController alloc] initWithRootViewController:rootViewController];
+
+    [window makeKeyAndVisible];
     return YES;
 }
 
